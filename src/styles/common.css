@@ -1,0 +1,155 @@
+
+
+/* border css */
+.border-bottom-light{border-bottom: 1px solid #ededed !important;}
+.theme--dark .border-bottom-light{border-bottom: 1px solid #393939 !important;}
+.border-bottom-dark{border-bottom: 1px solid #a2a2a2; border-radius: 0px !important;border-color: #a2a2a2 !important;}
+.border-top-dark{border-top: 1px solid #a2a2a2;}
+.border-top-midDark{border-top: 1px solid #c7c7c7;}
+.border-top-light{border-top: 1px solid #ededed !important;}
+.theme--dark .border-top-light{border-top: 1px solid #393939 !important;}
+.border-right{border-right: solid 1px #a2a2a2 !important;}
+.border-right-light{border-right: 1px solid #ededed !important;}
+.border-right-dark{border-right: 1px solid #c7c7c7 }
+.theme--dark .border-right-light {border-right: 1px solid #393939 !important;}
+.theme--dark .border-right-dark{border-right: 1px solid #393939 }
+.border-bottom-mwSearch{border-bottom: 1px solid #cbcbcb}
+.theme--dark .border-bottom-mwSearch{border-bottom: 1px solid #393939}
+
+/* color css */
+.primaryColor{color:#282828 }
+.blackColor{color: #000000 !important}
+.secondaryColor{color:#56585a !important}
+.theme--dark .primaryColor{color:#a2a2a2}
+.theme--dark .secondaryColor{color:#a2a2a2}
+.positiveColor{color:rgb(31, 146, 27)}
+.negativeColor{color:rgb(241, 57, 57)}
+.color-bdbdbd{
+  color: #bdbdbd !important;
+}
+.bgColor-EFEFEF{
+  background-color: #EFEFEF !important;
+
+}
+
+.blueBtn{background-color:#000000}
+.RedBtn{background-color:#000000}
+
+/* width class */
+.w-50{width:50%}
+
+/* Alignment css */
+.v-midlle{vertical-align: middle;}
+
+/* theme css in mkWatch */
+.theme--light.v-btn.settingsIcon{background:#ffffff}
+.theme--dark.v-btn.settingsIcon{background:#2E2E2E}
+
+/* Avatar css */
+.avatar{background-color:#D8ECFF;color: #0a65b9;}
+.theme--dark .avatar{background-color:#193850;color: #127de0;}
+
+/* buttons common style */
+.misBtn {color: #e2ad0d;background-color: #fdf7ef;letter-spacing: 1px; vertical-align: text-bottom;min-width:50px}
+.theme--dark .misBtn{background-color: #2a2823;color: #c19614;}
+.nrmlBtn {color: #5845ff;background-color: #e6e3ff;letter-spacing: 1px; vertical-align: text-bottom;min-width:50px}
+.theme--dark .nrmlBtn{background-color: #242333;color: #7768ff}
+.cncBtn {background-color: #ebf3d9;color: #3f530b;letter-spacing: 1px; vertical-align: text-bottom;min-width:50px}
+.theme--dark .cncBtn {background-color: #2c3022;color: #e4fda6;}
+.anlyticBtnsGroup:hover {background: #dee9fe !important;color: #0028ff !important;}
+.anlyticBtnsGroup { color: #56585a;background: #ffffff;width: fit-content; padding: 2px 4px;border: 1px solid #dee2e6;}
+.theme--dark .anlyticBtnsGroup:hover { color: #4987ee !important;background: #1C232D ;border: 1px solid #1C232D;}
+
+.sellcolor{ background-color: #f7edef;color: #f03;}
+.theme--dark .sellcolor{ background-color: #2e2425;color: #df514c;}
+.buycolor{ background-color: #e8f4ff;color: #0060b9;}
+.theme--dark .buycolor{ background-color:#1C232D;color: #4987ee;}
+.completed-msg{ background-color: #e5f7f0;color: #087751;padding: 4px 24px;}
+.theme--dark .completed-msg{ background-color: #1e281e;color: #5b9a5d;}
+.rejected-msg{ background-color: #ffebf0;color: #dc143d; padding: 4px 26px;}
+.theme--dark .rejected-msg{ background-color: #28191A;color: #df514c;}
+.cancelled-msg{ background-color: #e9ecf1;color: #333638; padding: 4px 22px;}
+.theme--dark .cancelled-msg{ background-color: #222222;color: #bbb;}
+ 
+.v-toolbar__content, .v-toolbar__extension{padding: 0px!important;}
+
+/* toolbar header */
+.appheader{background-color: #ffffff !important;}
+.theme--dark .appheader{background-color: #272727 !important;}
+
+/* main content */
+.v-main__wrap {background-color: #F9F9FB ;}
+.theme--dark .v-main__wrap {background-color: #000000 ;}
+
+.user-select-none{user-select:none}
+
+/* font-weight */
+.font-weight-normal{font-weight: normal !important;}
+
+.border-ededed { border: 1px solid #ededed;}
+.theme--dark.border-ededed { border: 1px solid #3f3f3f;}
+
+/* tooltip css  */
+.v-tooltip__content {background: rgb(0 0 0 / 90%);font-size:12px;}
+.toolTipColor{
+  background-color: #000000 !important;
+}
+.tableCheckBox{height:18px;width:18px;accent-color: #1077bd;cursor: pointer;}
+.v-tooltip__content:after, .v-tooltip__content:before {
+
+border: solid transparent;
+content: "";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+.toolTipTop::before {
+    border-color: rgba(0, 55, 66, 0);
+border-bottom-color:  #000000 !important;
+border-width: 6px;
+ left:45%;
+   top:100%;
+  transform: rotate(180deg);
+}
+
+
+.toolTipRight::before {
+    border-color: rgba(0, 55, 66, 0);
+    border-left-color:  #000000 !important;
+    border-width: 6px;
+    margin-top: -6px;
+     top:50%;
+      transform:translateX(-50%);
+       left:100%;
+      margin-left:5px; /* and add a small left margin */
+}
+
+.toolTipBottom::before {
+    border-color: rgba(0, 55, 66, 0);
+    border-bottom-color:  #000000 !important;
+    border-width: 6px;
+     bottom:100%;
+    left: 45%;
+}
+
+.toolTipLeft::before {
+  border-color: rgba(0, 55, 66, 0);
+  border-left-color: #000000 !important;
+  border-width: 6px;
+  margin-top: -6px;
+  top:50%;
+  transform:translateX(-50%);
+  left:100%;
+  margin-left:5px;
+}
+.alignLoginRightImg{
+  position: fixed;
+  top: 4px;
+  right: 76px;
+
+}
+.alignLoginleftImg{
+  position: absolute;
+  top: 65px;
+}
